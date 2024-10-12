@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-class {{name.pascalCase()}}Model extends Equatable {
-  const {{name.pascalCase()}}Model();
+class SplashComponentModel extends Equatable {
+  const SplashComponentModel();
 
   @override
   List<Object?> get props => []; 

@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
 
-class {{name.pascalCase()}}_DesktopView extends StatefulWidget {
+class {{name.pascalCase()}}DesktopView extends StatefulWidget {
+
+   const {{name.pascalCase()}}DesktopView({super.key});
+
   @override
-  _{{name.pascalCase()}}State createState() => _{{name.pascalCase()}}State();
+  {{name.pascalCase()}}State createState() => {{name.pascalCase()}}State();
 }
 
-class _{{name.pascalCase()}}State extends State<{{name.pascalCase()}}_DesktopView> {
+class {{name.pascalCase()}}State extends State<{{name.pascalCase()}}DesktopView> {
 
   @override
   Widget build(BuildContext context) {

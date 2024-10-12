@@ -1,0 +1,5 @@
+class SplashComponentService {
+   const SplashComponentService();
+
+
+}

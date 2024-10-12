@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
 
-class {{name.pascalCase()}}_MobileView extends StatefulWidget {
+class {{name.pascalCase()}}MobileView extends StatefulWidget {
+
+ const {{name.pascalCase()}}MobileView({super.key});
+
   @override
-  _{{name.pascalCase()}}State createState() => _{{name.pascalCase()}}State();
+  {{name.pascalCase()}}State createState() => {{name.pascalCase()}}State();
 }
 
-class _{{name.pascalCase()}}State extends State<{{name.pascalCase()}}_MobileView> {
+class {{name.pascalCase()}}State extends State<{{name.pascalCase()}}MobileView> {
 
   @override
   Widget build(BuildContext context) {
